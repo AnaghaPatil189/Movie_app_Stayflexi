@@ -9,3 +9,4 @@ To run This app
 6. It will show the movies based on that name
 7. We can use 'Sort button' to sort movies according to release year
 8. When you click on Movie Poster, It will show all the information regarding that movie
+9. To See Demo of website- Check Asssets Folder
