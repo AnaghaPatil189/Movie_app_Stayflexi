@@ -15,7 +15,7 @@ const SearchItem = () => {
 
   const fetchMovies = async () => {
     const response = await axios.get(
-      `http://www.omdbapi.com/?apikey=3bf0f9c5&s=${searchTerm}`
+      `https://www.omdbapi.com/?apikey=3bf0f9c5&s=${searchTerm}`
     );
     setMovies(response.data.Search);
   };
