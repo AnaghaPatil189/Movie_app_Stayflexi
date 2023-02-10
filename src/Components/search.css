@@ -1,0 +1,103 @@
+*{
+  background-color: black;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5vh;
+  background: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  background: none;
+}
+
+.input {
+  margin-top: 4vh;
+  padding: 0.5%;
+  font-size: 3vh;
+  border: 1px solid gray;
+  border-radius: 2vh;
+  margin-right: 2vw;
+  height: 5vh;
+  width: 20vw;
+  background: none;
+  color: white;
+  border-color: yellow;
+}
+
+.search {
+  margin-top: 4vh;
+  padding: 0.5rem 1rem;
+  font-size: 3vh;
+  border: 1px solid gray;
+  border-radius: 2vh;
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+}
+
+.sort {
+  padding: 0.5rem 1rem;
+  font-size: 2vh;
+  border: 1px solid gray;
+  border-radius: 2vh;
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+img {
+  border: 1vh solid gray;
+  padding: 0.7vw;
+  border-radius: 1vw;
+  width: 90%;
+  height: 90%;
+}
+
+h2 {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.info {
+  border: 0.3vh solid yellow;
+  border-radius: 0.5vh;
+  padding: 2vh;
+  width: 95vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+}
+
+
